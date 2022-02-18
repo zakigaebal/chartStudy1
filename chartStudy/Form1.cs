@@ -29,7 +29,7 @@ namespace chartStudy
 
 		private void btnAddXY_Click(object sender, EventArgs e)
 		{
-			chartB.Series[0].ChartType = SeriesChartType.Pie; //시리즈 차트타입을 파이타입으로
+			chartB.Series[0].ChartType = SeriesChartType.Pie; //시리즈 차트타입을 파이타입으로A
 			chartB.Series["Series1"].Points.Clear(); // 저장된값 지우기
 			chartB.Series["Series1"].Points.AddXY(10, 100); // X=10, Y=100
 			chartB.Series["Series1"].Points.AddXY(20, 200); // X=20, Y=200
